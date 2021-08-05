@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="14" skipped="0" failures="0" errors="0" time="471.904524" timestamp="2021-08-05T11:15:48-03:00" hostname="DESKTOP-JS2PLTC">
+<properties>
+<property name="seed" value="4296"/>
+</properties>
+<testcase classname="spec._cenario1_spec" name="==&gt; Criar Usuário Usar o endpoint de &apos;Criar um Usuário&apos; para criar um usuário válido, e então validar se o mesmo foi criado no endpoint &apos;Listar todos Usuários&apos; is expected to eql 204" file="./spec/_cenario1_spec.rb" time="103.964280"></testcase>
+<testcase classname="spec._cenario2_spec" name="==&gt; Alterar Usuário Alterar o nome deste usuário criado com o endpoint &apos;Alterar dados do Usuário&apos; e então validar as alterações no endpoint &apos;Listar um único Usuário&apos; is expected to eql 200" file="./spec/_cenario2_spec.rb" time="5.697002"></testcase>
+<testcase classname="spec._cenario2_spec" name="==&gt; Alterar Usuário Alterar o nome deste usuário criado com o endpoint &apos;Alterar dados do Usuário&apos; e então validar as alterações no endpoint &apos;Listar um único Usuário&apos; is expected to eql &quot;Novo Usuario&quot;" file="./spec/_cenario2_spec.rb" time="5.681902"></testcase>
+<testcase classname="spec._cenario2_spec" name="==&gt; Alterar Usuário Alterar o nome deste usuário criado com o endpoint &apos;Alterar dados do Usuário&apos; e então validar as alterações no endpoint &apos;Listar um único Usuário&apos; is expected to eql 1679" file="./spec/_cenario2_spec.rb" time="5.745828"></testcase>
+<testcase classname="spec._cenario2_spec" name="==&gt; Alterar Usuário Alterar o nome deste usuário criado com o endpoint &apos;Alterar dados do Usuário&apos; e então validar as alterações no endpoint &apos;Listar um único Usuário&apos; is expected to eql &quot;usuario200@teste.com&quot;" file="./spec/_cenario2_spec.rb" time="5.803175"></testcase>
+<testcase classname="spec._cenario2_spec" name="==&gt; Alterar Usuário Alterar o nome deste usuário criado com o endpoint &apos;Alterar dados do Usuário&apos; e então validar as alterações no endpoint &apos;Listar um único Usuário&apos; is expected to eql &quot;male&quot;" file="./spec/_cenario2_spec.rb" time="5.743022"></testcase>
+<testcase classname="spec._cenario2_spec" name="==&gt; Alterar Usuário Alterar o nome deste usuário criado com o endpoint &apos;Alterar dados do Usuário&apos; e então validar as alterações no endpoint &apos;Listar um único Usuário&apos; is expected to eql &quot;active&quot;" file="./spec/_cenario2_spec.rb" time="5.792960"></testcase>
+<testcase classname="spec._cenario3_spec" name="==&gt; Deletar Usuario Deletar o usuário criado no endpoint &apos;Deletar Usuario&apos; e validar se o mesmo foi removido no endpoint &apos;Listar todos Usuários&apos;&apos; is expected to eql 204" file="./spec/_cenario3_spec.rb" time="112.094063"></testcase>
+<testcase classname="spec._todososcenarios_spec" name="==&gt; Passar por todos os passos Criar / Alterar e Deletar usuarios is expected to eql 204" file="./spec/_todososcenarios_spec.rb" time="210.020968"></testcase>
+<testcase classname="spec.delete_spec" name="==&gt; Deletar Usuario Criando usuario Aleatório e excluindo is expected to eql 204" file="./spec/delete_spec.rb" time="2.799892"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Buscando apenas 1 usuario is expected to eql &quot;200&quot;" file="./spec/get_spec.rb" time="2.893360"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Listando todos os usuarios is expected to eql &quot;200&quot;" file="./spec/get_spec.rb" time="1.416884"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; Criar Usuário Criar usuario aleatorio is expected to eql 201" file="./spec/post_spec.rb" time="1.395090"></testcase>
+<testcase classname="spec.put_spec" name="==&gt; PUT Alterar usuario aleatorio is expected to eql 200" file="./spec/put_spec.rb" time="2.818373"></testcase>
+</testsuite>
